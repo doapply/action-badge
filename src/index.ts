@@ -37,7 +37,7 @@ const fetchImagesFromSVG = async (svg: string): Promise<Record<string, string>> 
 }
 
 const badgeURL = (badge_id: string): string =>
-	`https://api.daily.dev/badges/${badge_id}.svg?r=${new Date().valueOf()}&ref=action`
+	`https://api.doapply.me/badges/${badge_id}.svg?r=${new Date().valueOf()}&ref=action`
 
 const validatebadgeIdAsUUID = (badge_id: string): boolean => {
 	// An UUIDv4 regex without hyphens

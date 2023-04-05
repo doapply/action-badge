@@ -1,4 +1,4 @@
-# GitHub Action for fetching the badge from [daily.dev](https://api.daily.dev/get?r=omBratteng)
+# GitHub Action for fetching the badge from [doapply.me](https://api.doapply.me/get?r=omBratteng)
 
 [![GitHub](https://img.shields.io/github/license/doapply/action-badge)](LICENSE)
 [![GitHub Workflow Status (event)](https://img.shields.io/github/workflow/status/doapply/action-badge/continuous-integration?event=push&label=continuous-integration&logo=github)](https://github.com/doapply/action-badge/actions/workflows/continuous-integration.yml)
@@ -24,7 +24,7 @@ jobs:
 ### Required
 
 - `badge_id`: this is the unique hash of the badge, it can be found in the URL of the badge.
-  - e.g. `https://api.daily.dev/badges/0b156485612243bfa39092f30071e276.png` where the badge_id is `0b156485612243bfa39092f30071e276`
+  - e.g. `https://api.doapply.me/badges/0b156485612243bfa39092f30071e276.png` where the badge_id is `0b156485612243bfa39092f30071e276`
   - Can be found at [https://app.doapply.me/badge](https://app.doapply.me/badge)
 
 ### Optional

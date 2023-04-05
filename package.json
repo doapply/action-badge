@@ -1,7 +1,7 @@
 {
   "name": "action-badge",
   "version": "2.2.0",
-  "description": "GitHub Action to download the badge from daily.dev",
+  "description": "GitHub Action to download the badge from doapply.me",
   "private": true,
   "author": {
     "name": "Ole-Martin Bratteng",

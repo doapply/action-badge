@@ -1,5 +1,5 @@
 name: '@doapply/badge'
-description: 'GitHub Action to download the badge from daily.dev'
+description: 'GitHub Action to download the badge from doapply.me'
 author: 'Ole-Martin Bratteng'
 branding:
   icon: user-check
