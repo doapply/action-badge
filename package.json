@@ -1,6 +1,6 @@
 {
   "name": "action-badge",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "GitHub Action to download the badge from doapply.me",
   "private": true,
   "author": {
