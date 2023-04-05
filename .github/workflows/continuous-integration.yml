@@ -52,20 +52,20 @@ jobs:
           yarn build
 
       -
-        name: devcard.svg
+        name: badge.svg
         uses: ./
         with:
-          devcard_id: 0b156485612243bfa39092f30071e276
-          commit_filename: devcard.svg
+          badge_id: 0b156485612243bfa39092f30071e276
+          commit_filename: badge.svg
           commit_branch: main
           dryrun: true
 
       -
-        name: devcard.png
+        name: badge.png
         uses: ./
         with:
-          devcard_id: 0b156485612243bfa39092f30071e276
-          commit_filename: devcard.png
+          badge_id: 0b156485612243bfa39092f30071e276
+          commit_filename: badge.png
           commit_branch: main
           dryrun: true
 

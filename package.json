@@ -1,7 +1,7 @@
 {
-  "name": "action-devcard",
+  "name": "action-badge",
   "version": "2.2.0",
-  "description": "GitHub Action to download the devcard from daily.dev",
+  "description": "GitHub Action to download the badge from daily.dev",
   "private": true,
   "author": {
     "name": "Ole-Martin Bratteng",
@@ -18,8 +18,8 @@
     "build": "ncc build --out dist --target es2023 --minify --license license.txt src/index.ts"
   },
   "main": "src/index.ts",
-  "repository": "github:dailydotdev/action-devcard",
-  "bugs": "https://github.com/dailydotdev/action-devcard/issues",
+  "repository": "github:doapply/action-badge",
+  "bugs": "https://github.com/doapply/action-badge/issues",
   "license": "BSD-3-Clause",
   "dependencies": {
     "@actions/core": "^1.10.0",

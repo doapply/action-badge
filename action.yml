@@ -1,21 +1,21 @@
-name: '@dailydotdev/devcard'
-description: 'GitHub Action to download the devcard from daily.dev'
+name: '@doapply/badge'
+description: 'GitHub Action to download the badge from daily.dev'
 author: 'Ole-Martin Bratteng'
 branding:
   icon: user-check
   color: gray-dark
 inputs:
-  devcard_id:
-    description: 'The ID of the devcard'
+  badge_id:
+    description: 'The ID of the badge'
     required: true
 
   token:
-    description: GitHub Token used to commit the devcard
+    description: GitHub Token used to commit the badge
     default: ${{ github.token }}
     required: false
 
   commit_branch:
-    description: Branch used to commit the devcard
+    description: Branch used to commit the badge
     default: ""
     required: false
 
@@ -25,8 +25,8 @@ inputs:
     required: false
 
   commit_filename:
-    description: Filename to save devcard to
-    default: devcard.svg
+    description: Filename to save badge to
+    default: badge.svg
     required: false
 
   dryrun:
