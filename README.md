@@ -25,7 +25,7 @@ jobs:
 
 - `badge_id`: this is the unique hash of the badge, it can be found in the URL of the badge.
   - e.g. `https://api.daily.dev/badges/0b156485612243bfa39092f30071e276.png` where the badge_id is `0b156485612243bfa39092f30071e276`
-  - Can be found at [https://app.daily.dev/badge](https://app.daily.dev/badge)
+  - Can be found at [https://app.doapply.me/badge](https://app.doapply.me/badge)
 
 ### Optional
 
